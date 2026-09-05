@@ -1,6 +1,6 @@
 import axios from "axios"
 // const BASEURL="http://localhost:5000"
-const BASEURL="http://localhost:5001"
+const BASEURL="http://65.1.93.114:5001"
 class ApiServices{
     getToken(){
         let token=sessionStorage.getItem("token")
